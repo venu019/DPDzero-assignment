@@ -122,20 +122,8 @@ To rebuild cleanly (if things break):
 docker-compose down -v --remove-orphans
 docker-compose build --no-cache
 docker-compose up
-```
 
-## 📦 Extending the Project
-
-You can add more features like:
-
-* HTTPS with self-signed certificates
-* Auth headers or JWT verification in Nginx
-* Monitoring with Prometheus + Grafana
-* Containerized front-end app
-
-Let me know if you'd like help with any of that!
-
-## 🔧 Setup Instructions
+**## 🔧 Setup Instructions**
 
 ```bash
 git clone <your_repo>
