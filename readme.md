@@ -92,6 +92,7 @@ To view logs:
 
 ```bash
 docker logs nginx
+```
 
 ## 🧪 Health Checks
 
@@ -105,6 +106,7 @@ healthcheck:
   retries: 3
 
 Nginx depends on both services being healthy before it starts.
+```
 
 ## 🛑 Stopping Services
 
@@ -122,8 +124,9 @@ To rebuild cleanly (if things break):
 docker-compose down -v --remove-orphans
 docker-compose build --no-cache
 docker-compose up
+````
 
-**## 🔧 Setup Instructions**
+## 🔧 Setup Instructions
 
 ```bash
 git clone <your_repo>
